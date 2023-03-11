@@ -5,6 +5,7 @@
 /* Глобальные стили */
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
+@import url(../blocks/section-title/section-title.css);
 
 /* SOCIALS */
 @import url(../blocks/socials/__list/socials__list.css);
@@ -20,3 +21,9 @@
 @import url(../blocks/header/__text/header__text.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__avatar/header__avatar.css);
+
+/* COMFORT */
+@import url(../blocks/comfort/comfort.css);
+@import url(../blocks/comfort/__list/comfort__list.css);
+@import url(../blocks/comfort/__item-title/comfort__item-title.css);
+@import url(../blocks/comfort/__item-text/comfort__item-text.css);

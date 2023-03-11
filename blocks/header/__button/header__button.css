@@ -1,5 +1,6 @@
 .header__button {
   position: relative;
+  font-weight: 700;
   border: none;
   background-color: #ffbb01;
   color: #1b2944;

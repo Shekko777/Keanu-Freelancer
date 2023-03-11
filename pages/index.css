@@ -1,0 +1,19 @@
+/* VENDER */
+@import url(../vender/normalize.css);
+@import url(../vender/font.css);
+
+/* Глобальные стили */
+.page {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.container {
+  max-width: 974px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}

@@ -3,17 +3,20 @@
 @import url(../vender/font.css);
 
 /* Глобальные стили */
-.page {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #fff;
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
 
-.container {
-  max-width: 974px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+/* SOCIALS */
+@import url(../blocks/socials/__list/socials__list.css);
+@import url(../blocks/socials/__item/socials__item.css);
+@import url(../blocks/socials/__link/socials__link.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__top/header__top.css);
+@import url(../blocks/header/__main/header__main.css);
+@import url(../blocks/header/__span/header__span.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__avatar/header__avatar.css);

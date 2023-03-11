@@ -1,0 +1,15 @@
+.works-top__link {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 4px;
+  background-color: #ec1f46;
+  box-shadow: 0px 2px 0px #ce1c3e;
+  z-index: 1;
+  transition: transform 0.2s;
+}
+
+.works-top__link:hover {
+  transform: scale(0.97);
+}

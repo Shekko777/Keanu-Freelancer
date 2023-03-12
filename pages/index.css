@@ -34,3 +34,12 @@
 @import url(../blocks/works-top/__item/works-top__item.css);
 @import url(../blocks/works-top/__title/works-top__title.css);
 @import url(../blocks/works-top/__link/works-top__link.css);
+
+/* WORKS-BOTTOM */
+@import url(../blocks/works-bottom/works-bottom.css);
+@import url(../blocks/works-bottom/__list/works-bottom__list.css);
+@import url(../blocks/works-bottom/__item/works-bottom__item.css);
+@import url(../blocks/works-bottom/__img/works-bottom__img.css);
+@import url(../blocks/works-bottom/__video/works-bottom__video.css);
+@import url(../blocks/works-bottom/__video-button/works-bottom__video-button.css);
+@import url(../blocks/works-bottom/__video-timer/works-bottom__video-timer.css);

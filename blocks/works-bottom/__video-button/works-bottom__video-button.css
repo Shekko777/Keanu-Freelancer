@@ -1,0 +1,15 @@
+.works-bottom__video-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url("../../../images/works-bottom/play-button.png");
+  background-position: center;
+  background-size: cover;
+  top: 8px;
+  right: 8px;
+  transition: transform 0.5s;
+}

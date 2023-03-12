@@ -1,0 +1,7 @@
+.works-bottom__img {
+  transition: transform 0.2s;
+}
+
+.works-bottom__img:hover {
+  transform: scale(0.95) skew(2deg, 1deg);
+}

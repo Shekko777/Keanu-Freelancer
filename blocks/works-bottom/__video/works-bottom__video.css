@@ -1,0 +1,11 @@
+.works-bottom__video {
+  width: 224px;
+  height: 224px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: transform 0.15s;
+}
+
+.works-bottom__video:hover {
+  transform: scale(1.07);
+}

@@ -1,0 +1,7 @@
+.footer-contacts__item {
+  margin-bottom: 32px;
+}
+
+.footer-contacts__item:first-child {
+  margin-right: 116px;
+}

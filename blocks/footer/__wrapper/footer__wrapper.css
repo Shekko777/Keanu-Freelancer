@@ -1,0 +1,5 @@
+.footer__wrapper {
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}

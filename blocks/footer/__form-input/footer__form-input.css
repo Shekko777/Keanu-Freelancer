@@ -1,0 +1,29 @@
+.footer__form-input {
+  position: relative;
+  padding: 20px 25px 20px 50px;
+  width: 100%;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  box-sizing: border-box;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.footer__form-input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__form-input:focus {
+  outline: none;
+  border-color: #ffc41d;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.footer__form-input:hover {
+  background-color: #fff;
+  box-shadow: none;
+  border-color: #ffc41d;
+}

@@ -53,7 +53,7 @@
                     <p class="header__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать
                         дизайн и
                         верстку небольшого сайта или интернет-магазина</p>
-                    <button class="header__button">Бесплатная консультация </button>
+                    <button class="header__button button">Бесплатная консультация </button>
                 </div>
                 <img class="header__avatar" src="./images/header/avatar.jpg" alt="Моя фотография">
             </div>
@@ -189,7 +189,83 @@
 
     <!-- footer -->
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="footer__wrapper">
+                <form class="footer__form" action="#" method="get" autocomplete="off">
+                    <fieldset class="footer__form-fieldset">
+                        <p class="footer__form-text">Можете просто оставить заявку, я позвоню вам сегодня</p>
+                        <div class="footer__input-wrapper">
+                            <input class="footer__form-input" type="text" name="name" placeholder="Ваше имя" required>
+                            <i class="footer__input-icon footer__input-icon_place_one" aria-hidden="true"></i>
+                        </div>
+                        <div class="footer__input-wrapper">
+                            <input class="footer__form-input" type="tel" name="tel" placeholder="Ваш телефон" required>
+                            <i class="footer__input-icon footer__input-icon_place_two" aria-hidden="true"></i>
+                        </div>
+                        <button class="footer__form-button button">Бесплатная консультация</button>
+                    </fieldset>
+                </form>
+
+                <div class="footer-contacts">
+                    <ul class="footer-contacts__list">
+                        <li class="footer-contacts__item">
+                            <h3 class="footer-contacts__title">Телефон</h3>
+                            <a class="footer-contacts__link footer-link" href="tel:+79991234567">+7 999 123 45 67</a>
+                        </li>
+                        <li class="footer-contacts__item">
+                            <h3 class="footer-contacts__title">Почта</h3>
+                            <a class="footer-contacts__link footer-link" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+                        </li>
+                        <li class="footer-contacts__item">
+                            <h3 class="footer-contacts__title">Соцсети</h3>
+                            <ul class="footer-contacts__socials">
+                                <li class="footer-contacts__social">
+                                    <a class="footer-contacts__social-link footer-link" href="#">t.me/ivanov</a>
+                                </li>
+                                <li class="footer-contacts__social">
+                                    <a class="footer-contacts__social-link footer-link" href="#">vk.me/ivanov</a>
+                                </li>
+                                <li class="footer-contacts__social">
+                                    <a class="footer-contacts__social-link footer-link" href="#">fb.me/ivanov</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img class="socials__img" src="./images/socials/github.png" alt="Ссылка на гитхаб">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img class="socials__img" src="./images/socials/twitter.png"
+                                        alt="Ссылка на твиттер">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img class="socials__img" src="./images/socials/instagram.png"
+                                        alt="Ссылка на инстаграм (войти в который можно только с VPN)">
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <img class="socials__img" src="./images/socials/facebook.png"
+                                        alt="Ссылка на фейсбук">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a class="footer-contacts__link-protect" href="#">Политика конфиденциальности</a>
+
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="pages/index.js"></script>

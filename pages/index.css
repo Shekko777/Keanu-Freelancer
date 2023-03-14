@@ -6,6 +6,8 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/footer-link/footer-link.css);
 
 /* SOCIALS */
 @import url(../blocks/socials/__list/socials__list.css);
@@ -43,3 +45,23 @@
 @import url(../blocks/works-bottom/__video/works-bottom__video.css);
 @import url(../blocks/works-bottom/__video-button/works-bottom__video-button.css);
 @import url(../blocks/works-bottom/__video-timer/works-bottom__video-timer.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__form-fieldset/footer__form-fieldset.css);
+@import url(../blocks/footer/__form-text/footer__form-text.css);
+@import url(../blocks/footer/__input-wrapper/footer__input-wrapper.css);
+@import url(../blocks/footer/__form-input/footer__form-input.css);
+@import url(../blocks/footer/__input-icon/footer__input-icon.css);
+@import url(../blocks/footer/__input-icon/_place/footer__input-icon_place_one.css);
+@import url(../blocks/footer/__input-icon/_place/footer__input-icon_place_two.css);
+@import url(../blocks/footer/__form-button/footer__form-button.css);
+@import url(../blocks/footer-contacts/footer-contacts.css);
+@import url(../blocks/footer-contacts/__list/footer-contacts__list.css);
+@import url(../blocks/footer-contacts/__item/footer-contacts__item.css);
+@import url(../blocks/footer-contacts/__title/footer-contacts__title.css);
+@import url(../blocks/footer-contacts/__link/footer-contacts__link.css);
+@import url(../blocks/footer-contacts/__socials/footer-contacts__socials.css);
+@import url(../blocks/footer-contacts/__social-link/footer-contacts__social-link.css);
+@import url(../blocks/footer-contacts/__link-protect/footer-contacts__link-protect.css);

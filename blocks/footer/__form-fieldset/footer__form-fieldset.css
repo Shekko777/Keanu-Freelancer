@@ -1,0 +1,14 @@
+.footer__form-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 47px 42px 61px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -5px 5px 0px #ffc41d;
+  margin-right: 20px;
+}

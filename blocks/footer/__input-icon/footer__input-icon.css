@@ -1,0 +1,12 @@
+.footer__input-icon {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

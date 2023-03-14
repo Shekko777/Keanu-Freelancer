@@ -13,3 +13,7 @@
 .works-top__link:hover {
   transform: scale(0.97);
 }
+
+.works-top__link:active {
+  box-shadow: inset 0 -3px 20px 3px rgba(0, 0, 0, 0.3);
+}

@@ -1,3 +1,7 @@
 .header__button {
   padding: 25px 62px;
+  display: inline-block;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-transform: uppercase;
 }

@@ -9,3 +9,7 @@
 .socials__link:hover {
   transform: scale(1.3);
 }
+
+.socials__link:active {
+  transform: scale(0.8);
+}
